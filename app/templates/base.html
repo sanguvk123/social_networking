@@ -1,0 +1,20 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    {% if title %}
+    <title>Welcome to SKSN - {{ title }}</title>
+    {% else %}
+    <title>Welcome to SKSN - {{ title }}</title>
+    {% endif %}
+  </head>
+  <body>
+    <div> SKSN :
+      <a href="/index">Home</a>
+      <a href="/login">Login</a>
+    </div>
+
+    <hr>
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>

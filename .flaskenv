@@ -1,0 +1,2 @@
+FLASK_APP=social_networking
+FLASK_ENV=development
